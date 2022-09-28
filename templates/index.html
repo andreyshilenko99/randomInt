@@ -21,7 +21,7 @@
 $.ajax({
         url: "http://127.0.0.1:8000/random",
         type: 'GET',
-        dataType: 'json', // added data type
+        dataType: 'json',
         data: { get_param: 'random_number' },
         success: function(data) {
             console.log(data);
