@@ -23,6 +23,6 @@ async def root():
 
 
 if __name__ == '__main__':
-    uvicorn.run("main:app", port=443, host='0.0.0.0', reload = True, ssl_keyfile="~/openssl/server.key",
-                ssl_certfile="~/openssl/server.crt")
+    uvicorn.run("main:app", port=443, host='0.0.0.0', reload = True, ssl_keyfile="/home/andrew/openssl/server.key",
+                ssl_certfile="/home/andrew/openssl/server.crt")
 
